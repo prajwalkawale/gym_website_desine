@@ -1,0 +1,238 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: border-box;
+}
+.img {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url(./gym_trainner.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 750px;
+}
+
+.box-1 {
+  height: 170px;
+  width: 150px;
+  border: 2px solid black;
+  color: white;
+  background-color: rgba(255, 166, 0, 0.751);
+  padding: 15px;
+  font-size: 0.7rem;
+  position: absolute;
+  top: 70%;
+  left: 100px;
+}
+
+.box-1 h2 {
+  margin-top: 10px;
+  margin-left: 0;
+  font-size: 1rem;
+}
+.box-1 p {
+  margin-top: 10px;
+}
+
+.box-1 div {
+  font-size: 50px;
+  color: rgb(5, 5, 80);
+  border: 2px solid black;
+  background-color: white;
+  width: 65px;
+  padding: 10px;
+  border-radius: 45px;
+}
+.box-2 {
+  height: 170px;
+  width: 150px;
+  border: 2px solid black;
+  color: white;
+  background-color: rgba(255, 166, 0, 0.751);
+  padding: 15px;
+  font-size: 0.7rem;
+  position: absolute;
+  top: 70%;
+  left: 500px;
+}
+h2 {
+  margin-top: 10px;
+  margin-left: 0;
+  font-size: 1rem;
+}
+p {
+  margin-top: 10px;
+}
+.logo {
+  font-size: 50px;
+  color: rgb(5, 5, 80);
+  border: 2px solid black;
+  background-color: white;
+  width: 65px;
+  padding: 10px;
+  border-radius: 45px;
+}
+.box-3 {
+  height: 170px;
+  width: 150px;
+  border: 2px solid black;
+  color: white;
+  background-color: rgba(255, 166, 0, 0.751);
+  padding: 15px;
+  font-size: 0.7rem;
+  position: absolute;
+  top: 70%;
+  left: 900px;
+}
+.box-4 {
+  height: 170px;
+  width: 150px;
+  border: 2px solid black;
+  color: white;
+  background-color: rgba(255, 166, 0, 0.751);
+  padding: 15px;
+  font-size: 0.7rem;
+  position: absolute;
+  top: 70%;
+  right: 5%;
+}
+
+.box-1:hover {
+  border: 2px solid white;
+}
+.box-2:hover {
+  border: 2px solid white;
+}
+.box-3:hover {
+  border: 2px solid white;
+}
+.box-4:hover {
+  border: 2px solid white;
+}
+.name{
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  color: #333;
+  padding: 20px;
+  background-color: #9ac53d74;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 10%;
+}
+
+.name:hover{
+    border:2px solid white;
+}
+/* media query */
+@media screen and (max-width:600px){
+    .img {
+        height:750px;
+        width: 100%;
+      }
+    .name{
+        font-size:16px;
+        padding:8px;
+        border-radius:10px;
+      }
+    .box-1 {
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        color: white;
+        background-color: rgba(255, 166, 0, 0.751);
+        padding:5px;
+        font-size:10px;
+        position: absolute;
+        top:20%;
+        left:5px;
+      }
+
+      .box-1 h2 {
+        margin-top:5px;
+        margin-left:0;
+        font-size:10px;
+      }
+      .box-1 p {
+        margin-top:5px;
+        font-size:8px;
+      }
+      
+      .box-1 div {
+        font-size:18px;
+        color: rgb(5, 5, 80);
+        border: 2px solid black;
+        background-color: white;
+        width:18px;
+        padding:5px;
+        border-radius: 45px;
+      }
+
+.box-2{
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        color: white;
+        background-color: rgba(255, 166, 0, 0.751);
+        padding:5px;
+        font-size:13px;
+        position:absolute;
+        top:40%;
+        left: 5px;
+      }
+      h2 {
+        margin-top:5px;
+        margin-left: 0;
+        font-size:10px;
+      }
+      p {
+        margin-top:5px;
+        font-size:8px;
+      }
+      .logo {
+        font-size:18px;
+        color: rgb(5, 5, 80);
+        border: 2px solid black;
+        background-color: white;
+        width:18px;
+        padding:5px;
+        border-radius: 45px;
+      }
+
+      .box-3 {
+        height:100px;
+        width:100px;
+        border: 2px solid black;
+        color: white;
+        background-color: rgba(255, 166, 0, 0.751);
+        padding:5px;
+        font-size:13px;
+        position: absolute;
+        top:60%;
+        left:5px;
+      }
+      .box-4 {
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        color: white;
+        background-color: rgba(255, 166, 0, 0.751);
+        padding:5px;
+        font-size:13px;
+        position: absolute;
+        top:80%;
+        left:5px;
+      }
+      .box-1:hover {
+        border: 2px solid white;
+      }
+      .box-2:hover {
+        border: 2px solid white;
+      }
+      .box-3:hover {
+        border: 2px solid white;
+      }
+      .box-4:hover {
+        border: 2px solid white;
+      }
+}
