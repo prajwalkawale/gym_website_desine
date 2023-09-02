@@ -125,9 +125,9 @@ p {
     border:0.125rem solid white;
 }
 /* media query */
-@media(max-width:37.5rem){
+@media(max-width:50rem){
     .img {
-        height:46.875rem;
+        height:60rem;
         width: 100%;
       }
     .name{
